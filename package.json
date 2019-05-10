@@ -1,0 +1,34 @@
+{
+  "name": "@smebdi/react-native-scrollable-tabview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint -c .eslintrc . --ignore-path .gitignore",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smebdi/react-native-scrollable-tabview.git"
+  },
+  "keywords": [
+    "react-native",
+    "tab",
+    "scrollable"
+  ],
+  "author": "Mack Davenport <smebdi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smebdi/react-native-scrollable-tabview/issues"
+  },
+  "peerDependencies": {},
+  "homepage": "https://github.com/smebdi/react-native-scrollable-tabview#readme",
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.5",
+    "react-timer-mixin": "^0.13.4",
+    "create-react-class": "^15.6.2",
+    "prop-types": "^15.6.0"
+  },
+  "devDependencies": {}
+}

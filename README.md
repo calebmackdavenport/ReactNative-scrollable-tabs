@@ -1,7 +1,9 @@
 # React Native Scrollable Tab Header
 Custom built to fit a rather specific solution. Scrollable tabs are meant to contain information as pages.  
 Rather than navigation & container in one, this solution's intent was simply to create a navigation tool.  
-You could pass child components representing each page where I'm returning null. See the **suggested example** below.  
+
+You could pass child components representing each page where I'm returning null.  
+See the **suggested example** below.  
 
 ## Simple Example
 You can change tabs programmatically. Just use `goToPage` method.

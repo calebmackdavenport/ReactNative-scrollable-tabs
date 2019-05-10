@@ -1,7 +1,7 @@
 # React Native Scrollable Tab Header
-Custom built to fit a rather specific solution. Scrollable tabs are meant to contain information as pages.
-Rather than navigation & container in one, this solution's intent was simply to create a navigation tool.
-You could pass child components representing each page where I'm returning null. See the **suggested example** below.
+Custom built to fit a rather specific solution. Scrollable tabs are meant to contain information as pages.  
+Rather than navigation & container in one, this solution's intent was simply to create a navigation tool.  
+You could pass child components representing each page where I'm returning null. See the **suggested example** below.  
 
 ## Simple Example
 You can change tabs programmatically. Just use `goToPage` method.
@@ -107,9 +107,9 @@ _Not actually compilable code, just concept snippets_
   }
 
 ```
-Any time you navigate from one tab to another (via clicking them), you'll trigger onChangeTab which is where you specify your navigation fnction.
-In this simple exmaple, I'm just setting the state with a new pageNumber which is referenced via the page prop of `<ScrollableTabView>`.
-For my requirement, child components are then made available based on this.state.pageNumber, rather than directly rendered via the navigator.
+Any time you navigate from one tab to another (via clicking them), you'll trigger onChangeTab which is where you specify your navigation function.  
+In this simple exmaple, I'm just setting the state with a new pageNumber which is referenced via the page prop of `<ScrollableTabView>`.  
+For my requirement, child components are then made available based on this.state.pageNumber, rather than directly rendered via the navigator.  
 
 
 ## Props

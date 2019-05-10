@@ -110,7 +110,9 @@ _Not actually compilable code, just concept snippets_
 
 ```
 Any time you navigate from one tab to another (via clicking them), you'll trigger onChangeTab which is where you specify your navigation function.  
+  
 In this simple exmaple, I'm just setting the state with a new pageNumber which is referenced via the page prop of `<ScrollableTabView>`.  
+  
 For my requirement, child components are then made available based on this.state.pageNumber, rather than directly rendered via the navigator.  
 
 
